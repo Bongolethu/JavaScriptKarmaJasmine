@@ -1,0 +1,18 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+<div>
+    <span>Firstname: </span><input type="text" width="150" height="50" id="firstname" /><br /><br />
+    <span>Lastname: </span><input type="text" width="150" height="50" id="lastname" /><br /><br />
+    <span>ID Number: </span><input type="text" width="150" height="50" id="idnumber" onblur="GetGender()" /><br />
+    <span>Gender: </span><label type="" width="550" height="150" id="gender"  >The input in the ID number is invalid.</label><br /> <br />
+</div>
+<div>
+    <button width="150" height="50" id="Add">Add </button>
+    <button width="150" height="50" id="Subtract">Search </button>
+</div>
